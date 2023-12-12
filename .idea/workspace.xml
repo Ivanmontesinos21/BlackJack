@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d142ee-e00d-47d9-b9c2-88ec3ba0a3e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Palo.java" afterDir="false" />
+    <list default="true" id="88d142ee-e00d-47d9-b9c2-88ec3ba0a3e2" name="Changes" comment="blackjack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Carta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Palo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Palo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,46 @@
       <option name="presentableId" value="Default" />
       <updated>1701799703238</updated>
     </task>
+    <task id="LOCAL-00001" summary="blackjack">
+      <created>1702403582052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702403582052</updated>
+    </task>
+    <task id="LOCAL-00002" summary="blackjack">
+      <created>1702403692060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702403692060</updated>
+    </task>
+    <task id="LOCAL-00003" summary="blackjack">
+      <created>1702403820106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702403820106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="blackjack">
+      <created>1702403837462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702403837462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="blackjack">
+      <created>1702404107219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702404107219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blackjack" />
+    <option name="LAST_COMMIT_MESSAGE" value="blackjack" />
   </component>
 </project>

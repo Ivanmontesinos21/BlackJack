@@ -3,10 +3,10 @@ package EjerciciosPOO.BlackJack;
 import static com.diogonunes.jcolor.Ansi.colorize;
 
 public enum Palo {
-    Spade('♤',Color.BLACK),
-    Heart('♡',Color.RED),
-    Diamond('♢',Color.RED),
-    CLUB('♢',Color.BLACK);
+    Spade('♠',Color.BLACK),
+    Heart('♥',Color.RED),
+    Diamond('♦',Color.RED),
+    CLUB('♣',Color.BLACK);
 
     private char shape;
     private Color color;
