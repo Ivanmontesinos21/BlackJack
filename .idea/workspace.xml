@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d142ee-e00d-47d9-b9c2-88ec3ba0a3e2" name="Changes" comment="blackjack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Jugador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Palo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Palo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/imontesinosm/Descargas/HundirlaFlota&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702404107219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="blackjack">
+      <created>1702405858534</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702405858534</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

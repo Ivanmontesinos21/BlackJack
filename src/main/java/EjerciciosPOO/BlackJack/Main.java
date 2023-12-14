@@ -2,8 +2,16 @@ package EjerciciosPOO.BlackJack;
 
 public class Main {
     public static void main(String[] args) {
-      Carta c=new Carta(Tipo.AS,Palo.Heart);
-        System.out.println(c);
+    Baraja baraja=new Baraja();
+    baraja.shuffle();
+        System.out.println(baraja);
+
+        baraja.removeBotom();
+        baraja.removeTop();
+        baraja.cut();
+
+        System.out.println(baraja);
+
 
     }
 
