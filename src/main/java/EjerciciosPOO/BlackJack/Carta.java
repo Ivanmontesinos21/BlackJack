@@ -8,6 +8,10 @@ public class Carta {
         this.tipo = tipo;
         this.palo = palo;
     }
+    public int[] getValues(){
+        return tipo.getValues();
+    }
+
     @Override
     public String toString(){
         return tipo.toString()+palo;

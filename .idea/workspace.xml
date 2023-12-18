@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d142ee-e00d-47d9-b9c2-88ec3ba0a3e2" name="Changes" comment="blackjack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Mano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Baraja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Carta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Carta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Jugador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EjerciciosPOO/BlackJack/Tipo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +32,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2Z8NN5exGXYdgB3a0FbstOHx6iD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/imontesinosm/Descargas/HundirlaFlota&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/imontesinosm/IdeaProjects/BlackJack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701799703238</updated>
+      <workItem from="1702910350434" duration="7334000" />
     </task>
     <task id="LOCAL-00001" summary="blackjack">
       <created>1702403582052</created>
@@ -101,8 +108,18 @@
       <option name="project" value="LOCAL" />
       <updated>1702405858534</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="blackjack">
+      <created>1702585219530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702585219530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="blackjack" />
