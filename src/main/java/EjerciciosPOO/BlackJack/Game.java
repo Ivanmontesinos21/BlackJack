@@ -26,50 +26,72 @@ public class Game {
         // TODO
     }
 
-    public void start() {
+    public void start(){
+
+        baraja.shuffle();
 
         jueganJugadores();
         juegaBanca();
         mostrarGanadores();
+
     }
 
     private void mostrarGanadores() {
-        for (Jugador jugador:jugadores)
-            if (jugador.getPuntuacion()>banca.getPuntuacion())
-                System.out.println(jugador.getNombre()+" ha ganado");
-        else
-                System.out.println(jugador.getNombre()+ " ha ganado");
+
+        if(banca.pasado()){
+
+            for(Jugador jugador : jugadores){
+                if(jugador.win(banca))
+                    System.out.println("El jugador " + jugador.getNombre()+" gana!");
+            }
+
+        } else {
+
+            System.out.println("Gana la BANCA!!!");
+
+        }
+
 
     }
 
     private void juegaBanca() {
-        banca.cogerCarta(baraja.removeTop());
-        while (!banca.pasado() && !banca.winAll(jugadores))
+
+        while(!banca.pasado() && !banca.winAll(jugadores)) {
             banca.cogerCarta(baraja.removeTop());
-        System.out.println(banca);
+            System.out.println(banca);
+
+            try {
+                Thread.sleep(2000);
+            }catch (Exception e){}
+        }
+
     }
 
-    public void jueganJugadores() {
-        boolean quiereCarta=true;
-        baraja.shuffle();
+    private void jueganJugadores() {
+        boolean quiereCarta;
 
         for(Jugador jugador: jugadores) {
-            System.out.println("Empieza a jugar " +jugador.getNombre());
+
+            quiereCarta=true;
+
+            System.out.println("Empieza a jugar "+ jugador.getNombre());
+
             do {
 
                 jugador.cogerCarta(baraja.removeTop());
                 System.out.println(jugador);
-                quiereCarta = solicitarQuiereCarta(jugador);
-                if (!jugador.pasado())
-                    quiereCarta=solicitarQuiereCarta(jugador);
+
+                if(!jugador.pasado())
+                    quiereCarta = solicitarQuiereCarta(jugador);
 
             } while (quiereCarta && !jugador.pasado());
-            if (jugador.pasado())
-                System.out.println("te has pasado!!!");
+
+            if(jugador.pasado())
+                System.out.println("Te has pasado!!!");
 
         }
-
     }
+
 
     private boolean solicitarQuiereCarta(Jugador jugador) {
 
@@ -80,4 +102,3 @@ public class Game {
 
     }
 }
-

@@ -2,14 +2,14 @@ package EjerciciosPOO.BlackJack;
 
 import java.util.Arrays;
 
-import java.util.Arrays;
 
-public class Mano {
 
-    private Carta[] cartas;
+public class Mano<E> {
+
+    private Lista<Carta>cartas;
 
     public Mano(){
-        cartas = new Carta[0];
+        cartas=new Lista<>();
     }
 
     public int obtenerPuntuacion(){
@@ -38,7 +38,7 @@ public class Mano {
 
     @Override
     public String toString(){
-        return Arrays.toString(cartas);
+        return cartas.toString();
     }
 
 }

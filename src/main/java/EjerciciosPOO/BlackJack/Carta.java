@@ -1,13 +1,16 @@
 package EjerciciosPOO.BlackJack;
 
 public class Carta {
+
     private Palo palo;
     private Tipo tipo;
 
-    public Carta( Tipo tipo,Palo palo) {
-        this.tipo = tipo;
-        this.palo = palo;
+    public Carta(Tipo tipo,Palo palo){
+        this.palo=palo;
+        this.tipo=tipo;
     }
+
+
     public int[] getValues(){
         return tipo.getValues();
     }

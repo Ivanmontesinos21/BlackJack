@@ -1,8 +1,8 @@
 package EjerciciosPOO.BlackJack;
 
-public class Jugador {
+public class Jugador<E> {
 
-    private Mano mano;
+    private Mano<E> mano;
     private String nombre;
 
     public Jugador(String nombre){
@@ -17,9 +17,6 @@ public class Jugador {
     public int getPuntuacion(){
         return mano.obtenerPuntuacion();
     }
-    public boolean win(Jugador jugador){
-        return jugador.getPuntuacion()<getPuntuacion();
-    }
 
     public boolean pasado(){
         return getPuntuacion()>21;
@@ -28,15 +25,31 @@ public class Jugador {
     public String getNombre(){
         return nombre;
     }
-    public boolean winAll(Jugador... jugadores) {
-        if (pasado()) return false;
+
+    public boolean win(Jugador jugador){
+
+        if(getPuntuacion()>21)return false;
+        if(jugador.pasado())return true;
+
+        return jugador.getPuntuacion()<getPuntuacion();
+    }
+
+    public boolean winAll(Jugador... jugadores){
+
+        if(pasado()) return false;
+
         boolean gana = true;
-        int i = 0;
-        while (gana && i < jugadores.length) {
-            gana = jugadores[i].pasado() || jugadores[i].getPuntuacion() < getPuntuacion();
+
+        int i=0;
+
+        while(gana && i< jugadores.length) {
+
+            gana = jugadores[i].pasado() || jugadores[i].getPuntuacion() <= getPuntuacion();
             i++;
         }
+
         return gana;
+
     }
 
     @Override
@@ -46,7 +59,6 @@ public class Jugador {
     }
 
 }
-
 
 
 
